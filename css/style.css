@@ -1,0 +1,229 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+nav {
+    background-color: #0c2b4d;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menu {
+    float: right;
+    margin-top: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menu ul li a:hover {
+    color: #a8c4e0;
+}
+
+
+.hero {
+    display: flex;
+    padding: 50px;
+    background-color: #f5f5f5;
+    gap: 40px;
+    align-items: center;
+}
+
+.teks-hero {
+    width: 60%;
+}
+
+.teks-hero h1 {
+    font-size: 30px;
+    color: #0c2b4d;
+}
+
+.teks-hero h1 span {
+    color: #1565c0;
+}
+
+.teks-hero p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 15px;
+}
+
+.teks-hero a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 18px;
+    background-color: #0c2b4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.foto-hero img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0c2b4d;
+}
+
+
+.biodata {
+    padding: 50px;
+    background-color: white;
+}
+
+.biodata h2 {
+    font-size: 26px;
+    color: #0c2b4d;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0c2b4d;
+    padding-bottom: 8px;
+}
+
+.isi-biodata {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.foto-biodata img {
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #0c2b4d;
+}
+
+.tabel-biodata table {
+    border-collapse: collapse;
+}
+
+.tabel-biodata td {
+    padding: 8px 12px;
+    font-size: 15px;
+    color: #333;
+}
+
+
+.projects {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.projects h2 {
+    font-size: 26px;
+    color: #0c2b4d;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0c2b4d;
+    padding-bottom: 8px;
+}
+
+.isi-projects {
+    display: flex;
+    gap: 20px;
+}
+
+.kartu {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    width: 30%;
+}
+
+.kartu img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.kartu h3 {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #0c2b4d;
+}
+
+.kartu p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 6px;
+}
+
+
+.experience {
+    padding: 50px;
+    background-color: white;
+}
+
+.experience h2 {
+    font-size: 26px;
+    color: #0c2b4d;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0c2b4d;
+    padding-bottom: 8px;
+}
+
+.isi-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-experience {
+    border-left: 4px solid #0c2b4d;
+    padding-left: 20px;
+}
+
+.item-experience h3 {
+    font-size: 16px;
+    color: #0c2b4d;
+    margin: 0;
+}
+
+.item-experience span {
+    font-size: 13px;
+    color: #888;
+}
+
+.item-experience p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 6px;
+}
+
+
+.footer {
+    background-color: #0c2b4d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
